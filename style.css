@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(1,45,102);
+}
+
+header {
+    width: 100%;
+    height: 17vh;
+    text-align: center;
+    background-color: rgb(8, 58, 124);
+    box-shadow: 0 0 15px rgba(243, 241, 241, 0.5);
+}
+
+.titulo-ppal {
+    padding-top: 6vh;
+    font-size: 50px;
+    letter-spacing: 3px; 
+    word-spacing: 3px;   
+    color: white;
+}
+/* ------- index -------  */
+
+.Img {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.imgPpal {
+    width: 35%;
+    height: 67vh;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 15px rgba(243, 241, 241, 0.5);
+}
+
+.flechaDer {
+    margin-top: 80%;
+    margin-left: 75%;
+}
+
+/* ------- contenido -------  */
+
+.Contenido {
+    width: 85%;
+    height: 65vh;
+    margin-top: 10vh;
+    margin-left: 7%;
+    /* background-color: var(--blueBox); */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px rgba(243, 241, 241, 0.5);
+}
+
+.titulo-contenido {
+    color: white;
+    font-size: 35px;
+}
+
+.Contenido a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+/* ------- General -------  */
+
+.target {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(26, 1fr);
+    grid-template-rows: repeat(5, .3fr);
+    grid-gap: 5px;
+    margin-top: 7%;
+    margin-left: 10%;
+    box-shadow: 0 0 10px rgba(243, 241, 241, 0.5);
+    background-color: var(--blueBox);
+
+}
+
+.left {
+    grid-column: 3/20;
+    grid-row: 2/4;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    word-spacing: 3px;
+}
+
+.right {
+    grid-column:20/26;
+    grid-row: 2/5;
+}
+
+.right img {
+    box-shadow: 0 0 10px rgba(243, 241, 241, 0.5);
+    height: 29vh;
+}
+
+.titulo {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+strong {
+    font-size: 25px;
+}
+
+.btnVolver {
+    text-decoration: none;
+    width: 15%;
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+    line-height: 5vh;
+    border: solid white 2px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    box-shadow: 0 0 10px rgba(243, 241, 241, 0.5);
+}
+
+footer {
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    background-color: var(--blueBox);
+    box-shadow: 0 0 5px rgba(243, 241, 241, 0.5);
+    margin-top: 1.5%;
+}
+
+footer p {
+    font-size: 21px;
+    color: white;
+    padding-top: 1%;
+}
